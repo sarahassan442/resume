@@ -1,0 +1,167 @@
+body{
+
+background-color: #62cdfc;
+      
+}
+h1{
+
+    font-size: 50px;
+    color: #113F67;
+  
+      padding-left:50px;
+
+}
+
+.image img{
+ opacity: 0;
+  animation: fadeIn 2.5s ease forwards;
+width: 1255px;
+height:300px;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.paragraph{
+ font-weight:bold;
+padding-left:50px;
+
+font-size:20px;
+color: #113F67;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navigation{
+ 
+text-align: right;
+        padding: 10px;
+        font-size: 15px;
+            background-color: #93e2f0;
+            text-decoration: none;
+        }
+
+  
+
+.logo{
+          color: #113f67;
+          font-size: 20px;
+          padding-left: 20px;
+          padding-bottom: 10px;
+}
+  /*about*/
+  
+.image2 img{
+padding-left:200px;
+padding-top:00px;
+width:250px;
+height:250px;
+
+
+  }
+  h2{
+    color: #113F67;
+     text-align:left;
+  padding-left:500px;
+  }
+  .paragraph2{
+    color: #113F67;
+    text-align:left;
+    padding-left:500px;
+    font-weight:bold;
+    font-size:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /*contact*/
+
+
+.contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* spacing between fields */
+}
+
+.form-group {
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 12px;
+  font-size: 1em;
+  background-color: #005f8f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #003f5c;
+}
+/*portfilio*/
+.testimonial-box{
+ color: #113F67;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.testimonials-section {
+  background-color: #b3e5fc;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.testimonials-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #01579b;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  max-width: 700px;
+}
+
+.testimonial-card p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.testimonial-card h4 {
+  font-weight: bold;
+  color: #0277bd;
+  text-align: right;
+}
+
+
+  
